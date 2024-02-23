@@ -1,11 +1,11 @@
-.img-custom {
-    width: 100%;
-    object-fit: cover;
-}
-
 /* acts as container so that text is placements are of the section width and height */
 section {
     position: relative;
+}
+
+.img-custom {
+    width: 100%;
+    object-fit: cover;
 }
 
 .text {
@@ -91,4 +91,56 @@ form {
     color: black;
     text-decoration: none;
     font-size: 1rem;
+}
+
+@media only screen and (max-width:800px) {
+    section {
+        /*  crop image that overflows due to scaling*/
+        overflow: hidden;
+    }
+
+    .img-custom {
+        height: 100vh;
+        max-width: 100vh;
+        /*  make whole width of image appear in container so when transform into position by scaling and translating image isnt cut off*/
+        object-fit: scale-down;
+    }
+
+    #product-img {
+        transform: scale(4) translate(-22.2%, 1%);
+    }
+
+    #dimensions-img {
+        transform: scale(4) translate(21%);
+    }
+
+    #material-img {
+        transform: scale(4) translate(-10%);
+    }
+
+    #features-img {
+        transform: scale(4);
+    }
+
+    #product-description,
+    #dimensions-description,
+    #material-description {
+        text-align: center;
+        margin: auto;
+        top: 15%;
+        width: 100%;
+    }
+
+    iframe,
+    .accordion-custom,
+    form {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .accordion-custom {
+        padding: 5%;
+    }
+
 }
