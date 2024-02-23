@@ -29,5 +29,7 @@ The product is inspired by a macabun plush (https://pwuffy.com/products/macabunn
 
 5. I thought using bootstrap would accerlate my work flow however, I think it was about the same. I was doing so much thinking looking at the examples provided with each component avaiable. It look me a long time to figure out if a class is required or not. I assumed it does because that is how they are able to style. So I ended up using bootstrap as a template. It felt like kind of cheapting. However, since I have coded dropdown menus, responsive nav, and button to collapse divs before it did not feel that bad. I reminds of me of game devloping using the unreal engine which is blueprint based. so I still had to do customization in css.
 
-6. I will work on how it looks on mobile later. I also did not change the fonts so it looks kind of basic. I want it more cute themed abd the horror part intensified. 
+6. I will work on how it looks on mobile later. I also did not change the fonts so it looks kind of basic. I want it more cute themed abd the horror part intensified.
+
+7. I made it so the mobile version is more presentable however the redner is blurry in the first place. I do not know why saving directly from paint 3d as an image file is this blurry. 
   
